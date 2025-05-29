@@ -30,15 +30,15 @@ export function WorkSchoolSection() {
             </div>
 
             {/* Content */}
-            <div className='border rounded-md grid'>
+            <div className='border rounded-md grid relative overflow-hidden'>
                 {/* Work Tab Content Pane */}
                 <div
                     className={`
-                        row-start-1 col-start-1 not-last:p-4 transition-opacity duration-300 ease-in-out
+                        row-start-1 col-start-1 p-4 transition-all ease-in-out
                         ${
                             activeTab === "work"
-                                ? "opacity-100"
-                                : "opacity-0 pointer-events-none"
+                                ? "opacity-100 translate-y-0 duration-400 delay-150"
+                                : "opacity-0 translate-y-2 duration-300 delay-0 pointer-events-none"
                         }
                     `}
                 >
@@ -48,11 +48,11 @@ export function WorkSchoolSection() {
                 {/* Education Tab Content Pane */}
                 <div
                     className={`
-                        row-start-1 col-start-1 p-4 transition-opacity duration-300 ease-in-out
+                        row-start-1 col-start-1 p-4 transition-all ease-in-out
                         ${
                             activeTab === "education"
-                                ? "opacity-100"
-                                : "opacity-0 pointer-events-none"
+                                ? "opacity-100 translate-y-0 duration-400 delay-150"
+                                : "opacity-0 translate-y-2 duration-300 delay-0 pointer-events-none"
                         }
                     `}
                 >
