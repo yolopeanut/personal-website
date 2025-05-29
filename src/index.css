@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@100..900&display=swap');
+@import "tailwindcss";
+
+:root {
+  font-family: 'Lexend Deca';
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color:  #121212;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+
+
+@theme {
+    --color-gray-900: #202225;
+    --color-gray-800: #2f3136;
+    --color-gray-700: #36393f;
+    --color-gray-600: #4f545c;
+    --color-gray-400: #d4d7dc;
+    --color-gray-300: #e3e5e8;
+    --color-gray-200: #ebedef;
+    --color-gray-100: #f2f3f5;
+    --color-primary: #5865f2;
+
+    --color-custom-dark: #121212; 
+    --color-custom-blue-primary: #3B82F6;
+    --color-custom-gray-primary: rgba(217, 217, 217, 0.06);
+    --color-custom-font-white-primary: rgba(255, 255, 255, 0.9);
+    --color-custom-font-gray-primary: rgba(255, 255, 255, 0.36);
+    --color-custom-font-gray-secondary: rgba(151, 151, 151, 1);
+    --color-custom-border-gray-primary:rgba(118, 118, 118, 1);
+    --color-custom-background-gray-hover:rgba(118, 118, 118, 0.5);
+    --color-custom-background-gray-primary:rgba(55, 55, 55, 0.32);
+    --color-custom-background-dark-primary: #0B0C0D;
+
+  }
