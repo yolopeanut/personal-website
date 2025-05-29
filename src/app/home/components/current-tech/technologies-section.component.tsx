@@ -2,11 +2,11 @@ import { TechCard } from "./tech-card/tech-card.component";
 
 export function TechnologiesSection() {
     return (
-        <div className='flex flex-col gap-4 w-[60%]'>
+        <div className='flex flex-col gap-4 w-full'>
             <h1 className='text-custom-font-white-primary text-2xl font-bold'>
                 Current Technologies
             </h1>
-            <span className='text-custom-font-white-primary'>
+            <span className='text-custom-font-gray-secondary'>
                 I'm proficient in a range of modern technologies that empower me
                 to build highly functional solutions. These are some of my main
                 technologies.
