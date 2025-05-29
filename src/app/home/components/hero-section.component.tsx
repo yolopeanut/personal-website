@@ -3,6 +3,16 @@ import { BiChevronRight } from "react-icons/bi";
 import resumePDF from "../../../assets/Brandon_Resume_29_5.pdf";
 
 export function HeroSection() {
+    const scrollToSection = (sectionId: string) => {
+        const element = document.getElementById(sectionId);
+        if (element) {
+            const offsetTop = element.offsetTop - 80; // Account for fixed navbar height
+            window.scrollTo({
+                top: offsetTop,
+                behavior: "smooth",
+            });
+        }
+    };
     return (
         <div className='flex flex-col gap-10 justify-center items-center mt-[15%] pb-64'>
             <div className='flex flex-col justify-center items-center'>
@@ -29,6 +39,7 @@ export function HeroSection() {
 
             <div className='flex flex-row gap-4'>
                 <button
+                    onClick={() => scrollToSection("portfolio")}
                     className='text-white px-4 py-2 rounded-md border border-custom-border-gray-primary 
                               hover:cursor-pointer hover:bg-custom-background-gray-hover 
                               hover:scale-105 hover:shadow-2xl hover:shadow-blue-500/20 hover:-translate-y-1
