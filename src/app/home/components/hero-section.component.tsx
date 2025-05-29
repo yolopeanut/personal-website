@@ -1,5 +1,6 @@
 import { AiOutlineDownload } from "react-icons/ai";
 import { BiChevronRight } from "react-icons/bi";
+import resumePDF from "../../../assets/Brandon_Resume_29_5.pdf";
 
 export function HeroSection() {
     return (
@@ -58,14 +59,16 @@ export function HeroSection() {
                     ></div>
                 </button>
 
-                <button
+                <a
+                    href={resumePDF}
+                    download='Brandon_Resume_29_5.pdf'
                     className='text-white px-4 py-2 rounded-md border border-custom-border-gray-primary 
                               hover:cursor-pointer hover:bg-custom-background-gray-hover 
                               hover:scale-105 hover:shadow-2xl hover:shadow-cyan-500/20 hover:-translate-y-1
                               hover:border-cyan-400/50 hover:text-cyan-200
                               active:scale-95 active:translate-y-0 active:shadow-lg active:shadow-cyan-500/40
                               transition-all duration-500 ease-out hover:duration-300 active:duration-150
-                              group relative overflow-hidden'
+                              group relative overflow-hidden inline-block'
                 >
                     {/* Animated background gradient on hover */}
                     <div
@@ -87,7 +90,7 @@ export function HeroSection() {
                         className='absolute inset-0 bg-gradient-to-r from-transparent via-white/10 to-transparent 
                                     -translate-x-full group-hover:translate-x-full transition-transform duration-1000 ease-out'
                     ></div>
-                </button>
+                </a>
             </div>
         </div>
     );
