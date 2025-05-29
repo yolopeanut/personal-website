@@ -46,7 +46,7 @@ export function WorkTab() {
                 </h1>
                 {/* Experience */}
                 <h1 className='text-custom-font-white-primary'>
-                    <span className='font-bold text-custom-font-white-primary'>
+                    <span className='font-bold text-custom-font-white-primary text-xl'>
                         Experience:
                     </span>{" "}
                     <ul className='list-disc pl-4'>
