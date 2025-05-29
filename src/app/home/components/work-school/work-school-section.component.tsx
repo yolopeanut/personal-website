@@ -30,7 +30,7 @@ export function WorkSchoolSection() {
             </div>
 
             {/* Content */}
-            <div className='border rounded-md grid relative overflow-hidden'>
+            <div className='border border-custom-border-gray-primary rounded-md grid relative overflow-hidden'>
                 {/* Work Tab Content Pane */}
                 <div
                     className={`
