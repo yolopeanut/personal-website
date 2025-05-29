@@ -3,7 +3,7 @@ import { BiChevronRight } from "react-icons/bi";
 
 export function HeroSection() {
     return (
-        <div className='flex flex-col gap-10 justify-center items-center mt-[15%]'>
+        <div className='flex flex-col gap-10 justify-center items-center mt-[15%] pb-64'>
             <div className='flex flex-col justify-center items-center'>
                 <h1 className='text-custom-font-white-primary text-2xl font-semibold'>
                     BASED IN MALAYSIA

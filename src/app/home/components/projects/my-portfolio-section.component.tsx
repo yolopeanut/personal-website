@@ -2,7 +2,7 @@ import { ProjectCard } from "./card/project-card.component";
 
 export function MyPortfolioSection() {
     return (
-        <div className='flex flex-col gap-4 w-full pb-40'>
+        <div className='flex flex-col gap-4 w-full'>
             <h1 className='text-custom-font-white-primary text-2xl font-bold'>
                 My Portfolio
             </h1>

@@ -6,7 +6,7 @@ export function WorkSchoolSection() {
     const [activeTab, setActiveTab] = useState<"work" | "education">("work");
     const activeTabClass = "bg-custom-background-dark-primary rounded-sm";
     return (
-        <div className='mt-64 w-full gap-4 flex flex-col'>
+        <div className='w-full gap-4 flex flex-col'>
             {/* Tabs */}
             <div
                 className={`flex flex-row gap-1 bg-custom-background-gray-primary p-2 rounded-sm`}
