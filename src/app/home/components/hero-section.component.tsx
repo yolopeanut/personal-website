@@ -1,6 +1,6 @@
 import { AiOutlineDownload } from "react-icons/ai";
 import { BiChevronRight } from "react-icons/bi";
-import resumePDF from "../../../assets/Brandon_Resume_29_5.pdf";
+import resumePDF from "../../../assets/SWE Updated Resume 305.pdf";
 
 export function HeroSection() {
     const scrollToSection = (sectionId: string) => {
@@ -72,7 +72,7 @@ export function HeroSection() {
 
                 <a
                     href={resumePDF}
-                    download='Brandon_Resume_29_5.pdf'
+                    download='Brandon_Resume.pdf'
                     className='text-white px-4 py-2 rounded-md border border-custom-border-gray-primary 
                               hover:cursor-pointer hover:bg-custom-background-gray-hover 
                               hover:scale-105 hover:shadow-2xl hover:shadow-cyan-500/20 hover:-translate-y-1
