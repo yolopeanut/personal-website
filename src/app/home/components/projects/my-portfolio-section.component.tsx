@@ -1,4 +1,7 @@
 import { ProjectCard } from "./card/project-card.component";
+import FriendsImg from "../../../../assets/Friends.png";
+import GroupsImg from "../../../../assets/Groups.png";
+import TransactionImg from "../../../../assets/Transaction.png";
 
 export function MyPortfolioSection() {
     return (
@@ -13,11 +16,7 @@ export function MyPortfolioSection() {
 
             {/* SplitBill */}
             <ProjectCard
-                imageArray={[
-                    "src/assets/Friends.png",
-                    "src/assets/Groups.png",
-                    "src/assets/Transaction.png",
-                ]}
+                imageArray={[FriendsImg, GroupsImg, TransactionImg]}
                 title='SplitBill'
                 technologyArray={[
                     "React",
