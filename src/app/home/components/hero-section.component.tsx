@@ -1,6 +1,6 @@
 import { AiOutlineDownload } from "react-icons/ai";
 import { BiChevronRight } from "react-icons/bi";
-import resumePDF from "../../../assets/SWE Updated Resume 305.pdf";
+import resumePDF from "../../../assets/SWE Updated Resume 0206.pdf";
 
 export function HeroSection() {
     const scrollToSection = (sectionId: string) => {
