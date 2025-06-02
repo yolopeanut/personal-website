@@ -7,7 +7,7 @@ interface TechCardProps {
 export function TechCard({ icon, name, description }: TechCardProps) {
     return (
         <div
-            className='bg-custom-background-gray-secondary rounded-lg py-4 px-4 w-72 h-20 flex flex-row items-center gap-4 
+            className='bg-custom-background-gray-secondary rounded-lg py-4 px-4 w-92 h-20 flex flex-row items-center gap-4 
                         border border-transparent hover:border-blue-400/30
                         hover:bg-custom-background-gray-hover hover:scale-105 hover:shadow-2xl hover:shadow-blue-500/20
                         hover:-translate-y-2 

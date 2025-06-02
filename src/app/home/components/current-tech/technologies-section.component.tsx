@@ -49,10 +49,10 @@ export function TechnologiesSection() {
                 {/* C# */}
                 <TechCard
                     icon={
-                        "https://static-00.iconduck.com/assets.00/c-sharp-c-icon-1822x2048-wuf3ijab.png"
+                        "https://learn.microsoft.com/dotnet/media/dotnet-logo.png"
                     }
-                    name='C#'
-                    description='Programming Language'
+                    name='ASP.NET API (.NET 8)'
+                    description='Web Framework'
                 />
 
                 {/* Python */}
